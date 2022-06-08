@@ -1,0 +1,11 @@
+<?php
+use BarcodeBakery\Common\BCGColor;
+use BarcodeBakery\Common\BCGDrawing;
+use BarcodeBakery\Barcode\BCGdatamatrix;
+
+$colorBlack = new BCGColor(0, 0, 0);
+$colorWhite = new BCGColor(255, 255, 255);
+
+// Barcode Part
+$code = new BCGdatamatr|
+$code->parse('Hello');
